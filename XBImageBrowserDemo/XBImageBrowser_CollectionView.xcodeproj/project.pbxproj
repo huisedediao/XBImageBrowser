@@ -73,7 +73,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F144F08022D5D86D000B93FA /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
 		F144F08122D5D86D000B93FA /* XBImageBrowserTopToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserTopToolBar.m; sourceTree = "<group>"; };
 		F144F08222D5D86D000B93FA /* XBImageBrowserBottomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserBottomToolBar.m; sourceTree = "<group>"; };
 		F144F08322D5D86D000B93FA /* XBImageBrowserWithToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserWithToolBar.h; sourceTree = "<group>"; };
@@ -182,7 +181,6 @@
 		F144F07F22D5D86D000B93FA /* XBImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				F144F08022D5D86D000B93FA /* Example.h */,
 				F144F08122D5D86D000B93FA /* XBImageBrowserTopToolBar.m */,
 				F144F08222D5D86D000B93FA /* XBImageBrowserBottomToolBar.m */,
 				F144F08322D5D86D000B93FA /* XBImageBrowserWithToolBar.h */,
