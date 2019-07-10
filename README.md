@@ -1,5 +1,7 @@
 # XBImageBrowser
 图片浏览器，支持本地图片和网络图片（支持混搭，虽然没什么卵用）
+# 安装
+pod 'XBImageBrowser'
 
 </br>
 ### 效果图：
@@ -17,7 +19,7 @@
 
 <pre>
 -(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-    
+
     return UIInterfaceOrientationMaskAll;
 }
 </pre>
@@ -27,15 +29,15 @@
 
 </br>
 <pre>
-    
+
     XBImageBrowser_smanos *browser=[XBImageBrowser_smanos new];
-    
+
     //设置数据源数组，可以是网络的也可以是本地的
     browser.arr_imagePathOrUrlstr=[@[@"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",[[NSBundle mainBundle] pathForResource:@"AW1C_product01.png" ofType:nil],[[NSBundle mainBundle] pathForResource:@"AW1C_product02.png" ofType:nil],[[NSBundle mainBundle] pathForResource:@"AW1C_product03.png" ofType:nil],[[NSBundle mainBundle] pathForResource:@"AW1C_product04.png" ofType:nil],[[NSBundle mainBundle] pathForResource:@"AW1C_settingwifi.png" ofType:nil]] mutableCopy];
-    
+
     //进入时展示第几张（从0开始）
     browser.indexOfItem=1;
-    
+
     [self presentViewController:browser animated:YES completion:nil];
 
 </pre>
