@@ -1,0 +1,1 @@
+../../../XBImageManager/XBImageManager/XBImageManager.h

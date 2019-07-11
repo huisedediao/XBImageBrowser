@@ -74,7 +74,6 @@
                                                object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(currentImageIndexChanged:) name:kNotice_currentImageIndexChange object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(imageFinishDownload:) name:kNotice_imageFinishDownload object:nil];
 }
 
 -(void)removeNotice
@@ -82,7 +81,6 @@
 //    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIDeviceOrientationDidChangeNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kNotice_deviceOrientationWillChange object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:kNotice_currentImageIndexChange object:nil];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kNotice_imageFinishDownload object:nil];
 }
 
 -(void)currentImageIndexChanged:(NSNotification *)noti
@@ -122,18 +120,6 @@
     self.scrollView.zoomScale=1.0;
     _loadingView.center=self.center;
 }
-
--(void)imageFinishDownload:(NSNotification *)noti
-{
-    NSDictionary *dic=noti.object;
-    if ([dic[kUrlStrKey] isEqualToString:self.str_imagePathOrUrlstr])
-    {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.image=dic[kImageKey];
-        });
-    }
-}
-
 
 #pragma mark - 懒加载
 
@@ -231,7 +217,10 @@
     
     [self setLoadingViewHidden:NO];
     
-    [[XBImageManager sharedManager] getImageWith:str_imagePathOrUrlstr];
+    typeof(self) __weak weakSelf = self;
+    [[XBImageManager sharedManager] getImageWith:str_imagePathOrUrlstr completeBlock:^(UIImage *image) {
+        weakSelf.image = image;
+    }];
 }
 
 - (void)setImage:(UIImage *)image

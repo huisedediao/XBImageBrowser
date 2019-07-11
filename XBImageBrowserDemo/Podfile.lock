@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - XBImageManager (0.0.2)
+
+DEPENDENCIES:
+  - Masonry
+  - XBImageManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - XBImageManager
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XBImageManager: 2bbda6279c60ec34493c397d7d464e9b78b6fe6b
+
+PODFILE CHECKSUM: c7d7c3b7e482b73e27c54f6804805028c28c46e5
+
+COCOAPODS: 1.7.4

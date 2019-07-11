@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772B57A995CF1EA9248C187B /* libPods-XBImageBrowser_CollectionViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F1DB8B7B6502F689B12B1 /* libPods-XBImageBrowser_CollectionViewTests.a */; };
+		A4625F87BB66B6837C7EC763 /* libPods-XBImageBrowser_CollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA55547503920336A830058 /* libPods-XBImageBrowser_CollectionView.a */; };
+		E48D556D8242CF35BBC16469 /* libPods-XBImageBrowser_CollectionViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8634B06BEAA53A65BB371A /* libPods-XBImageBrowser_CollectionViewUITests.a */; };
 		F144F09A22D5D86D000B93FA /* XBImageBrowserTopToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F08122D5D86D000B93FA /* XBImageBrowserTopToolBar.m */; };
 		F144F09B22D5D86D000B93FA /* XBImageBrowserBottomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F08222D5D86D000B93FA /* XBImageBrowserBottomToolBar.m */; };
 		F144F09C22D5D86D000B93FA /* XBImageBrowserWithToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F08622D5D86D000B93FA /* XBImageBrowserWithToolBar.m */; };
@@ -18,7 +21,6 @@
 		F144F0A222D5D86D000B93FA /* XBIB_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F144F09022D5D86D000B93FA /* XBIB_back@2x.png */; };
 		F144F0A322D5D86D000B93FA /* XBImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F09122D5D86D000B93FA /* XBImageBrowser.m */; };
 		F144F0A422D5D86D000B93FA /* XBImageBrowserFrameAnimateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F09222D5D86D000B93FA /* XBImageBrowserFrameAnimateManager.m */; };
-		F144F0A522D5D86D000B93FA /* XBImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F09522D5D86D000B93FA /* XBImageManager.m */; };
 		F144F0A622D5D86D000B93FA /* XBImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F09722D5D86D000B93FA /* XBImageBrowserCell.m */; };
 		F144F0A722D5D86D000B93FA /* XBImageBrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F144F09822D5D86D000B93FA /* XBImageBrowserItem.m */; };
 		F155EF551E2A0F4F00E27A93 /* icon_share.png in Resources */ = {isa = PBXBuildFile; fileRef = F155EF531E2A0F4F00E27A93 /* icon_share.png */; };
@@ -27,16 +29,6 @@
 		F155EF5A1E2A0F6B00E27A93 /* icon_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F155EF581E2A0F6B00E27A93 /* icon_delete@2x.png */; };
 		F155EF5D1E2A0F9300E27A93 /* C_back.png in Resources */ = {isa = PBXBuildFile; fileRef = F155EF5B1E2A0F9300E27A93 /* C_back.png */; };
 		F155EF5E1E2A0F9300E27A93 /* C_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F155EF5C1E2A0F9300E27A93 /* C_back@2x.png */; };
-		F1D460201E271D5500583974 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D460081E271D5500583974 /* MASCompositeConstraint.m */; };
-		F1D460211E271D5500583974 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4600B1E271D5500583974 /* MASConstraint.m */; };
-		F1D460221E271D5500583974 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4600D1E271D5500583974 /* MASConstraintMaker.m */; };
-		F1D460231E271D5500583974 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4600F1E271D5500583974 /* MASLayoutConstraint.m */; };
-		F1D460241E271D5500583974 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D460131E271D5500583974 /* MASViewAttribute.m */; };
-		F1D460251E271D5500583974 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D460151E271D5500583974 /* MASViewConstraint.m */; };
-		F1D460261E271D5500583974 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D460171E271D5500583974 /* NSArray+MASAdditions.m */; };
-		F1D460271E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4601A1E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		F1D460281E271D5500583974 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4601C1E271D5500583974 /* View+MASAdditions.m */; };
-		F1D460291E271D5500583974 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D4601F1E271D5500583974 /* ViewController+MASAdditions.m */; };
 		F1DCEDBF1E2659C90046C3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCEDBE1E2659C90046C3B0 /* main.m */; };
 		F1DCEDC21E2659C90046C3B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCEDC11E2659C90046C3B0 /* AppDelegate.m */; };
 		F1DCEDC51E2659C90046C3B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCEDC41E2659C90046C3B0 /* ViewController.m */; };
@@ -73,6 +65,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D8F1DB8B7B6502F689B12B1 /* libPods-XBImageBrowser_CollectionViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBImageBrowser_CollectionViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8634B06BEAA53A65BB371A /* libPods-XBImageBrowser_CollectionViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBImageBrowser_CollectionViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2779B41F548CD6466ACD0E /* Pods-XBImageBrowser_CollectionViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionViewTests.release.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionViewTests/Pods-XBImageBrowser_CollectionViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		649073FA655330FB1A07AE44 /* Pods-XBImageBrowser_CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionView.release.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionView/Pods-XBImageBrowser_CollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		8571F44B0D19197F146EEF35 /* Pods-XBImageBrowser_CollectionViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionViewUITests/Pods-XBImageBrowser_CollectionViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E5397B76A725BB6F1D5C560 /* Pods-XBImageBrowser_CollectionViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionViewTests.debug.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionViewTests/Pods-XBImageBrowser_CollectionViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EEDF604236323501F8A0F3B /* Pods-XBImageBrowser_CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionView.debug.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionView/Pods-XBImageBrowser_CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB1AED7413217E779E6234D /* Pods-XBImageBrowser_CollectionViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBImageBrowser_CollectionViewUITests.release.xcconfig"; path = "Target Support Files/Pods-XBImageBrowser_CollectionViewUITests/Pods-XBImageBrowser_CollectionViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F144F08122D5D86D000B93FA /* XBImageBrowserTopToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserTopToolBar.m; sourceTree = "<group>"; };
 		F144F08222D5D86D000B93FA /* XBImageBrowserBottomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserBottomToolBar.m; sourceTree = "<group>"; };
 		F144F08322D5D86D000B93FA /* XBImageBrowserWithToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserWithToolBar.h; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 		F144F08522D5D86D000B93FA /* XBImageBrowserTopToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserTopToolBar.h; sourceTree = "<group>"; };
 		F144F08622D5D86D000B93FA /* XBImageBrowserWithToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserWithToolBar.m; sourceTree = "<group>"; };
 		F144F08822D5D86D000B93FA /* XBImageBrowserHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserHeader.h; sourceTree = "<group>"; };
-		F144F08922D5D86D000B93FA /* XBImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageManager.h; sourceTree = "<group>"; };
 		F144F08B22D5D86D000B93FA /* XBIB_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "XBIB_delete@2x.png"; sourceTree = "<group>"; };
 		F144F08C22D5D86D000B93FA /* XBIB_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XBIB_delete.png; sourceTree = "<group>"; };
 		F144F08D22D5D86D000B93FA /* XBIB_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XBIB_back.png; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		F144F09222D5D86D000B93FA /* XBImageBrowserFrameAnimateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserFrameAnimateManager.m; sourceTree = "<group>"; };
 		F144F09322D5D86D000B93FA /* XBImageBrowserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserItem.h; sourceTree = "<group>"; };
 		F144F09422D5D86D000B93FA /* XBImageBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowserCell.h; sourceTree = "<group>"; };
-		F144F09522D5D86D000B93FA /* XBImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageManager.m; sourceTree = "<group>"; };
 		F144F09622D5D86D000B93FA /* XBImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBImageBrowser.h; sourceTree = "<group>"; };
 		F144F09722D5D86D000B93FA /* XBImageBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserCell.m; sourceTree = "<group>"; };
 		F144F09822D5D86D000B93FA /* XBImageBrowserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBImageBrowserItem.m; sourceTree = "<group>"; };
@@ -102,31 +100,6 @@
 		F155EF581E2A0F6B00E27A93 /* icon_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_delete@2x.png"; sourceTree = "<group>"; };
 		F155EF5B1E2A0F9300E27A93 /* C_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C_back.png; sourceTree = "<group>"; };
 		F155EF5C1E2A0F9300E27A93 /* C_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C_back@2x.png"; sourceTree = "<group>"; };
-		F1D460071E271D5500583974 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		F1D460081E271D5500583974 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		F1D460091E271D5500583974 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		F1D4600A1E271D5500583974 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		F1D4600B1E271D5500583974 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		F1D4600C1E271D5500583974 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		F1D4600D1E271D5500583974 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		F1D4600E1E271D5500583974 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		F1D4600F1E271D5500583974 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		F1D460101E271D5500583974 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		F1D460111E271D5500583974 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		F1D460121E271D5500583974 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		F1D460131E271D5500583974 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		F1D460141E271D5500583974 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		F1D460151E271D5500583974 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		F1D460161E271D5500583974 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		F1D460171E271D5500583974 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		F1D460181E271D5500583974 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F1D460191E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		F1D4601A1E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		F1D4601B1E271D5500583974 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		F1D4601C1E271D5500583974 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		F1D4601D1E271D5500583974 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F1D4601E1E271D5500583974 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		F1D4601F1E271D5500583974 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		F1DCEDBA1E2659C90046C3B0 /* XBImageBrowser_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBImageBrowser_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DCEDBE1E2659C90046C3B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1DCEDC01E2659C90046C3B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +124,7 @@
 		F1DCEDF51E2659FB0046C3B0 /* AW1C_settingwifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AW1C_settingwifi.png; sourceTree = "<group>"; };
 		F1DCEDF61E2659FB0046C3B0 /* AW1C_wifi01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AW1C_wifi01.png; sourceTree = "<group>"; };
 		F1DCEDF71E2659FB0046C3B0 /* kal_tile_range_left_today@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kal_tile_range_left_today@2x.png"; sourceTree = "<group>"; };
+		FCA55547503920336A830058 /* libPods-XBImageBrowser_CollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBImageBrowser_CollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4625F87BB66B6837C7EC763 /* libPods-XBImageBrowser_CollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772B57A995CF1EA9248C187B /* libPods-XBImageBrowser_CollectionViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,12 +148,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48D556D8242CF35BBC16469 /* libPods-XBImageBrowser_CollectionViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B5D920D8BD8680AF5B00B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EEDF604236323501F8A0F3B /* Pods-XBImageBrowser_CollectionView.debug.xcconfig */,
+				649073FA655330FB1A07AE44 /* Pods-XBImageBrowser_CollectionView.release.xcconfig */,
+				8E5397B76A725BB6F1D5C560 /* Pods-XBImageBrowser_CollectionViewTests.debug.xcconfig */,
+				5C2779B41F548CD6466ACD0E /* Pods-XBImageBrowser_CollectionViewTests.release.xcconfig */,
+				8571F44B0D19197F146EEF35 /* Pods-XBImageBrowser_CollectionViewUITests.debug.xcconfig */,
+				ADB1AED7413217E779E6234D /* Pods-XBImageBrowser_CollectionViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD97732F8FFB6F23361B8BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA55547503920336A830058 /* libPods-XBImageBrowser_CollectionView.a */,
+				1D8F1DB8B7B6502F689B12B1 /* libPods-XBImageBrowser_CollectionViewTests.a */,
+				2F8634B06BEAA53A65BB371A /* libPods-XBImageBrowser_CollectionViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F144F07F22D5D86D000B93FA /* XBImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,13 +198,11 @@
 			isa = PBXGroup;
 			children = (
 				F144F08822D5D86D000B93FA /* XBImageBrowserHeader.h */,
-				F144F08922D5D86D000B93FA /* XBImageManager.h */,
 				F144F08A22D5D86D000B93FA /* Images */,
 				F144F09122D5D86D000B93FA /* XBImageBrowser.m */,
 				F144F09222D5D86D000B93FA /* XBImageBrowserFrameAnimateManager.m */,
 				F144F09322D5D86D000B93FA /* XBImageBrowserItem.h */,
 				F144F09422D5D86D000B93FA /* XBImageBrowserCell.h */,
-				F144F09522D5D86D000B93FA /* XBImageManager.m */,
 				F144F09622D5D86D000B93FA /* XBImageBrowser.h */,
 				F144F09722D5D86D000B93FA /* XBImageBrowserCell.m */,
 				F144F09822D5D86D000B93FA /* XBImageBrowserItem.m */,
@@ -225,47 +224,16 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		F1D460061E271D5500583974 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				F1D460071E271D5500583974 /* MASCompositeConstraint.h */,
-				F1D460081E271D5500583974 /* MASCompositeConstraint.m */,
-				F1D460091E271D5500583974 /* MASConstraint+Private.h */,
-				F1D4600A1E271D5500583974 /* MASConstraint.h */,
-				F1D4600B1E271D5500583974 /* MASConstraint.m */,
-				F1D4600C1E271D5500583974 /* MASConstraintMaker.h */,
-				F1D4600D1E271D5500583974 /* MASConstraintMaker.m */,
-				F1D4600E1E271D5500583974 /* MASLayoutConstraint.h */,
-				F1D4600F1E271D5500583974 /* MASLayoutConstraint.m */,
-				F1D460101E271D5500583974 /* Masonry.h */,
-				F1D460111E271D5500583974 /* MASUtilities.h */,
-				F1D460121E271D5500583974 /* MASViewAttribute.h */,
-				F1D460131E271D5500583974 /* MASViewAttribute.m */,
-				F1D460141E271D5500583974 /* MASViewConstraint.h */,
-				F1D460151E271D5500583974 /* MASViewConstraint.m */,
-				F1D460161E271D5500583974 /* NSArray+MASAdditions.h */,
-				F1D460171E271D5500583974 /* NSArray+MASAdditions.m */,
-				F1D460181E271D5500583974 /* NSArray+MASShorthandAdditions.h */,
-				F1D460191E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				F1D4601A1E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				F1D4601B1E271D5500583974 /* View+MASAdditions.h */,
-				F1D4601C1E271D5500583974 /* View+MASAdditions.m */,
-				F1D4601D1E271D5500583974 /* View+MASShorthandAdditions.h */,
-				F1D4601E1E271D5500583974 /* ViewController+MASAdditions.h */,
-				F1D4601F1E271D5500583974 /* ViewController+MASAdditions.m */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
 		F1DCEDB11E2659C90046C3B0 = {
 			isa = PBXGroup;
 			children = (
 				F144F07F22D5D86D000B93FA /* XBImageBrowser */,
-				F1D460061E271D5500583974 /* Masonry */,
 				F1DCEDBC1E2659C90046C3B0 /* XBImageBrowser_CollectionView */,
 				F1DCEDD61E2659C90046C3B0 /* XBImageBrowser_CollectionViewTests */,
 				F1DCEDE11E2659C90046C3B0 /* XBImageBrowser_CollectionViewUITests */,
 				F1DCEDBB1E2659C90046C3B0 /* Products */,
+				31B5D920D8BD8680AF5B00B7 /* Pods */,
+				BD97732F8FFB6F23361B8BF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -342,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1DCEDE71E2659C90046C3B0 /* Build configuration list for PBXNativeTarget "XBImageBrowser_CollectionView" */;
 			buildPhases = (
+				32ABDDF4A530984CDA5D7437 /* [CP] Check Pods Manifest.lock */,
 				F1DCEDB61E2659C90046C3B0 /* Sources */,
 				F1DCEDB71E2659C90046C3B0 /* Frameworks */,
 				F1DCEDB81E2659C90046C3B0 /* Resources */,
@@ -359,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1DCEDEA1E2659C90046C3B0 /* Build configuration list for PBXNativeTarget "XBImageBrowser_CollectionViewTests" */;
 			buildPhases = (
+				50B070539395C80CA4267180 /* [CP] Check Pods Manifest.lock */,
 				F1DCEDCF1E2659C90046C3B0 /* Sources */,
 				F1DCEDD01E2659C90046C3B0 /* Frameworks */,
 				F1DCEDD11E2659C90046C3B0 /* Resources */,
@@ -377,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1DCEDED1E2659C90046C3B0 /* Build configuration list for PBXNativeTarget "XBImageBrowser_CollectionViewUITests" */;
 			buildPhases = (
+				A05F7BB81B26107FA31D65DA /* [CP] Check Pods Manifest.lock */,
 				F1DCEDDA1E2659C90046C3B0 /* Sources */,
 				F1DCEDDB1E2659C90046C3B0 /* Frameworks */,
 				F1DCEDDC1E2659C90046C3B0 /* Resources */,
@@ -484,32 +455,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32ABDDF4A530984CDA5D7437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XBImageBrowser_CollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B070539395C80CA4267180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XBImageBrowser_CollectionViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05F7BB81B26107FA31D65DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XBImageBrowser_CollectionViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1DCEDB61E2659C90046C3B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D460281E271D5500583974 /* View+MASAdditions.m in Sources */,
 				F1DCEDC51E2659C90046C3B0 /* ViewController.m in Sources */,
 				F1DCEDC21E2659C90046C3B0 /* AppDelegate.m in Sources */,
-				F144F0A522D5D86D000B93FA /* XBImageManager.m in Sources */,
-				F1D460291E271D5500583974 /* ViewController+MASAdditions.m in Sources */,
-				F1D460241E271D5500583974 /* MASViewAttribute.m in Sources */,
-				F1D460201E271D5500583974 /* MASCompositeConstraint.m in Sources */,
 				F144F0A322D5D86D000B93FA /* XBImageBrowser.m in Sources */,
 				F144F09C22D5D86D000B93FA /* XBImageBrowserWithToolBar.m in Sources */,
 				F1DCEDBF1E2659C90046C3B0 /* main.m in Sources */,
-				F1D460221E271D5500583974 /* MASConstraintMaker.m in Sources */,
 				F144F0A722D5D86D000B93FA /* XBImageBrowserItem.m in Sources */,
 				F144F09B22D5D86D000B93FA /* XBImageBrowserBottomToolBar.m in Sources */,
 				F144F0A622D5D86D000B93FA /* XBImageBrowserCell.m in Sources */,
 				F144F09A22D5D86D000B93FA /* XBImageBrowserTopToolBar.m in Sources */,
-				F1D460211E271D5500583974 /* MASConstraint.m in Sources */,
-				F1D460271E271D5500583974 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				F144F0A422D5D86D000B93FA /* XBImageBrowserFrameAnimateManager.m in Sources */,
-				F1D460231E271D5500583974 /* MASLayoutConstraint.m in Sources */,
-				F1D460261E271D5500583974 /* NSArray+MASAdditions.m in Sources */,
-				F1D460251E271D5500583974 /* MASViewConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +685,7 @@
 		};
 		F1DCEDE81E2659C90046C3B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEDF604236323501F8A0F3B /* Pods-XBImageBrowser_CollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RC2BP8QGY9;
@@ -668,6 +698,7 @@
 		};
 		F1DCEDE91E2659C90046C3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649073FA655330FB1A07AE44 /* Pods-XBImageBrowser_CollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RC2BP8QGY9;
@@ -680,6 +711,7 @@
 		};
 		F1DCEDEB1E2659C90046C3B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5397B76A725BB6F1D5C560 /* Pods-XBImageBrowser_CollectionViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XBImageBrowser_CollectionViewTests/Info.plist;
@@ -692,6 +724,7 @@
 		};
 		F1DCEDEC1E2659C90046C3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2779B41F548CD6466ACD0E /* Pods-XBImageBrowser_CollectionViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XBImageBrowser_CollectionViewTests/Info.plist;
@@ -704,6 +737,7 @@
 		};
 		F1DCEDEE1E2659C90046C3B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8571F44B0D19197F146EEF35 /* Pods-XBImageBrowser_CollectionViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XBImageBrowser_CollectionViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -715,6 +749,7 @@
 		};
 		F1DCEDEF1E2659C90046C3B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB1AED7413217E779E6234D /* Pods-XBImageBrowser_CollectionViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XBImageBrowser_CollectionViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

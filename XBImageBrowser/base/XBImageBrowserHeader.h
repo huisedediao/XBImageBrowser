@@ -37,20 +37,10 @@ typedef UIView * (^CreateLoadingViewBlockType)(void);
 #define kNotice_currentImageIndexChange @"kNotice_currentImageIndexChange"
 #define kNotice_itemImageClicked @"kNotice_itemImageClicked"
 #define kNotice_itemImageDeleted @"kNotice_itemImageDeleted"
-#define kNotice_imageFinishDownload @"kNotice_imageFinishDownload"
 #define kNotice_deviceOrientationWillChange @"kNotice_deviceOrientationWillChange"
 #define kNotice_imageHasBeenSetted @"kNotice_imageHasBeenSetted"
 #define kNotice_imageViewDidZoom @"kNotice_imageViewDidZoom"
 
-#define kUrlStrKey @"urlStr"
-#define kImageKey @"image"
-
-#define kImageQuality (1.0)
-
-
-//路径
-#define KdicM_pathForUrlStorePath [NSString stringWithFormat:@"%@/Documents/KdicM_pathForUrlStorePath",NSHomeDirectory()]
-#define KdownloadImgStoreFullPath [NSString stringWithFormat:@"%@%@",NSHomeDirectory(),@"/Documents/KdownloadImgStorePath"]
 
 //获取当前时间戳 (NSTimeInterval)
 #define getCurrentTimeInterval ({ \

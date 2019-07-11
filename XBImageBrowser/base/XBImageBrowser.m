@@ -59,7 +59,7 @@
 -(void)dealloc
 {
     NSLog(@"%@释放了",NSStringFromClass([self class]));
-    [[XBImageManager sharedManager] removeImagesFromTempDictWith:self.arrM_imagePathOrUrlstr];
+    [[XBImageManager sharedManager] removeImagesForUrlOrPathArr:self.arrM_imagePathOrUrlstr];
     [self removeNotice];
 }
 

@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '9.0'
+
+def pods_files
+    pod 'Masonry'
+    pod 'XBImageManager'
+end
+
+target 'XBImageBrowser_CollectionView' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+  pods_files
+  # Pods for XBImageBrowser_CollectionView
+
+  target 'XBImageBrowser_CollectionViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'XBImageBrowser_CollectionViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

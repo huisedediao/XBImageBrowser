@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XBImageBrowser"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "支持本地和网络图片混搭的图片浏览器，带缓存功能"
 
   # This description is used to generate tags and improve search results.
@@ -135,4 +135,5 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "Masonry"
+  spec.dependency "XBImageManager"
 end
